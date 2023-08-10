@@ -1,0 +1,40 @@
+/* selector dengan elemen html */
+body { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hallo {
+    font-size: 30px;
+    color: aqua;
+}
+
+/* ketika coursor berada tepat di element tersebut */
+.hallo:hover {
+    font-size: 40px;
+    color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ketika di klik */
+.hallo:active {
+    font-style: italic;
+    color: blue;
+}
+
+.hallo:visited {
+    color: orange;
+}
+
+
+
+li:nth-child(3n-2) a{
+    color: brown;
+}
+
+tr:nth-child(odd) td{
+    background-color: rgb(137, 156, 156);
+}
+
+p:last-of-type {
+    color: brown;
+}

@@ -1,0 +1,28 @@
+/* selector dengan elemen html */
+body { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* grouping bisa dengan menabahkna koma */
+h1, h2 {
+    color: blueviolet;
+}
+
+ul li a {
+    color: orange;
+}
+
+ol li a {
+    color: brown;
+}
+
+/* selector khusus ada dua yaitu : id dan class */
+#p1 {
+    color: cornflowerblue;
+}
+
+.p2 {
+    color: rgb(0, 139, 65);
+    font-weight: bold;
+    font-size: 20px;
+}

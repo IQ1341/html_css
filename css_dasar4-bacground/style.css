@@ -1,0 +1,6 @@
+body {
+    background-color: rgb(136, 123, 123);
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}

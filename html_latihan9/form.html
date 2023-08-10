@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <table cellpadding="3">
+    <form action="">
+        <tr>
+            <td>
+                <label for="username">Username :</label>
+            </td>
+            <td>
+                <input type="text" id="username">
+            </td>
+        </tr>   
+        <tr>
+            <td>
+                <label for="password">Password :</label>
+            </td>
+            <td>
+                <input type="password" id="password" name="password">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="email">Email :</label>
+            </td>
+            <td>
+                <input type="email" id="email" name="email">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="jenis-kelamin">Jenis Kelamin :</label>
+            </td>
+            <td>
+                <input type="radio" id="jenis-kelamin" name="jenis-kelamin" value="laki-laki">laki-laki
+                <input type="radio" id="jenis-kelamin" name="jenis-kelamin" value="perempuan">Perempuan
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="hobi">Hobi :</label>
+            </td>
+            <td>
+                <input type="checkbox" id="hobi">Ngoding
+                <input type="checkbox" id="hobi">Berenang
+                <input type="checkbox" id="hobi">Membaca
+                <input type="checkbox" id="hobi">Menulis
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="agama">Agama :</label>
+            </td>
+            <td>
+                <select name="agama" id="agama">
+                    <option value="">--pilih agama--</option>
+                    <option value="islam">Isalam</option>
+                    <option value="budha">Budha</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Konghucu">Konghucu</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="alamat">Alamat :</label>
+            </td>
+            <td>
+                <textarea name="alamat" id="alamat" cols="35" rows="5"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="submit">Submit</button>
+                <button type="reset">Hapus</button>
+            </td>
+        </tr>  
+        
+        
+    </form>
+</table>
+</body>
+</html>

@@ -1,0 +1,21 @@
+h1 {
+    font-size: 50px;
+    /* color : untuk memberikan warna pada text*/
+    color: rgb(20, 128, 92);
+    /* text-decoration : untuk menambahkan garis bawha dan sebagainya*/
+    /* dan juga digunakan untuk menghilangkan garis bwah pada sebuah link dengan menambahkan text-decoration : none  */
+    text-decoration: underline;
+}
+p {
+    color: #0801d8;
+    /* text-align :untuk mengatur posisi ratanya  */
+    text-align: justify;
+    /* text-indent : untuk memberikan indentasi pada text */
+    text-indent: 80px;
+    /* text-transfrom : untuk mengubah huruf menjadi besar ,kecil atau capitelize */
+    text-transform: uppercase;
+    /* leter-spacing : utuk mengatur jarak antar huruf */
+    letter-spacing: 10px;
+    /* word-spacing untuk mengatur jarak antar kata */
+    
+}
